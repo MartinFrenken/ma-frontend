@@ -85,6 +85,7 @@ export default () => {
         return (
             <div>
                 <CompleteNavbar/>
+                <p>hi</p>
                 <ul>
                     {listItems}
                 </ul>
