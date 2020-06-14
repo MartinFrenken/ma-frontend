@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/movie/[movie].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/UserButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/review/ReviewInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/httpexception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/PostReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/MovieFeatured.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MovieFeatured.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/ApiGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/ApiGateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.vs/APIGW/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/APIGW/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.vs/APIGW/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/APIGW/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.vs/gateway/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/gateway/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/bin/Debug/netcoreapp3.1/configuration/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/bin/Debug/netcoreapp3.1/configuration/configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/configuration/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/configuration/configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/obj/Debug/netcoreapp3.1/APIGW.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/obj/Debug/netcoreapp3.1/APIGW.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/kafka/ReviewConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/kafka/ReviewConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../review-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZWYQSXrNica2aLr3Apg8NeHqY1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Proftaak/s64-1/frontend" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\MovieAnalyst S6\MovieAnalyst\frontend\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="" />
+      <created>1584956300958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584956300958</updated>
+      <workItem from="1584956302152" duration="3457000" />
+      <workItem from="1585068936599" duration="603000" />
+      <workItem from="1585485123736" duration="102000" />
+      <workItem from="1585485239343" duration="56000" />
+      <workItem from="1585565549632" duration="2574000" />
+      <workItem from="1585742511831" duration="393000" />
+      <workItem from="1585747341589" duration="2609000" />
+      <workItem from="1586247904554" duration="2026000" />
+      <workItem from="1586330414797" duration="1856000" />
+      <workItem from="1586432608463" duration="402000" />
+      <workItem from="1586602639770" duration="57000" />
+      <workItem from="1586602748956" duration="1078000" />
+      <workItem from="1586724892380" duration="498000" />
+      <workItem from="1587109037763" duration="8051000" />
+      <workItem from="1587455990648" duration="19966000" />
+      <workItem from="1588237342982" duration="4806000" />
+      <workItem from="1588432731608" duration="1834000" />
+      <workItem from="1588713179434" duration="1281000" />
+      <workItem from="1588752777669" duration="36000" />
+      <workItem from="1588776388130" duration="23599000" />
+      <workItem from="1588888070575" duration="8155000" />
+      <workItem from="1588916004606" duration="29878000" />
+      <workItem from="1589190483311" duration="4105000" />
+      <workItem from="1589204278145" duration="2531000" />
+      <workItem from="1589372247735" duration="1617000" />
+      <workItem from="1589566732343" duration="1832000" />
+      <workItem from="1589619307018" duration="1982000" />
+      <workItem from="1589787569943" duration="13000" />
+      <workItem from="1589818336413" duration="1380000" />
+      <workItem from="1589893431957" duration="6204000" />
+      <workItem from="1590142648255" duration="598000" />
+      <workItem from="1590231120723" duration="6727000" />
+      <workItem from="1591003333446" duration="859000" />
+      <workItem from="1591122560956" duration="19913000" />
+      <workItem from="1591256993943" duration="2361000" />
+      <workItem from="1591522470164" duration="5227000" />
+      <workItem from="1591607271101" duration="1285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1208" y="266" key="#Dockerfile" timestamp="1586603169055">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1208" y="266" key="#Dockerfile/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1586603169055" />
+    <state x="1110" y="756" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590247790667">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1110" y="756" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590247790667" />
+    <state x="1085" y="415" key="#com.intellij.ide.util.MemberChooser" timestamp="1588878523057">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="415" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1588878523057" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588785113037">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1588785113037" />
+    <state x="894" y="294" key="CommitChangelistDialog2" timestamp="1588919214476">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="894" y="294" key="CommitChangelistDialog2/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1588919214476" />
+    <state x="885" y="428" key="FileChooserDialogImpl" timestamp="1590233671759">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
+    <state width="2539" height="324" key="GridCell.Tab.0.bottom" timestamp="1591274895805">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895805" />
+    <state width="2539" height="324" key="GridCell.Tab.0.center" timestamp="1591274895802">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="324" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895802" />
+    <state width="2539" height="324" key="GridCell.Tab.0.left" timestamp="1591274895802">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="324" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895802" />
+    <state width="2539" height="324" key="GridCell.Tab.0.right" timestamp="1591274895804">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="324" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895804" />
+    <state x="921" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591168288658">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="921" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591168288658" />
+    <state x="957" y="349" key="run.anything.popup" timestamp="1587487850991">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="957" y="349" key="run.anything.popup/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1587487850991" />
+  </component>
+</project>
