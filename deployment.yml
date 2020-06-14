@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ma-frontend
-        image: eu.gcr.io/sixth-spot-273818/ma-frontend
+        image: eu.gcr.io/sixth-spot-273818/ma-frontend:latest
         ports:
         - containerPort: 3000
         resources:
