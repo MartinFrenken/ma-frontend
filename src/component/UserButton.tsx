@@ -1,4 +1,5 @@
 import { Modal, Button } from 'antd';
+import React, { Component } from 'react';
 
 class UserModal extends React.Component {
     state = {
