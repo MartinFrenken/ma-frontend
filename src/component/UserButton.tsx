@@ -1,5 +1,6 @@
 import { Modal, Button } from 'antd';
 import React, { Component } from 'react';
+import ApiGateway from "../logic/ApiGateway";
 
 class UserModal extends React.Component {
     state = {
@@ -19,12 +20,17 @@ class UserModal extends React.Component {
             ModalText: 'The modal will be closed after two seconds',
             confirmLoading: true,
         });
+
+        let apigw = new ApiGateway();
+        apigw.deleteData();
+
         setTimeout(() => {
             this.setState({
                 visible: false,
                 confirmLoading: false,
             });
         }, 2000);
+
     };
 
     handleCancel = () => {

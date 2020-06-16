@@ -79,13 +79,13 @@ export default () => {
             )
         };
 
-        // const movieRenders = movieState.movies.map((movie) =>
-        //     <MovieFeatured movie={movie}/>
-        //     );
+        const movieRenders = movieState.movies.map((movie) =>
+            <MovieFeatured movie={movie}/>
+            );
         return (
             <div>
                 <CompleteNavbar/>
-                <p>hi</p>
+                {movieRenders}
                 <ul>
                     {listItems}
                 </ul>

@@ -22,4 +22,7 @@ export default class ApiGateway {
     async getReviews(movie){
        return Axios.get("http://localhost:1232/review-api/get/reviews/"+movie, this.config)
     }
+    async deleteData(){
+        return Axios.get("http://localhost:1232/review-api/delete", this.config)
+    }
 }

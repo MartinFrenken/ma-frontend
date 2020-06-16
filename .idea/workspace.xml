@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/movie/[movie].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/UserButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/review/ReviewInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/httpexception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/PostReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/MovieFeatured.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MovieFeatured.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/UserButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/UserButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logic/ApiGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/ApiGateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/.vs/APIGW/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/APIGW/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/.vs/APIGW/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/APIGW/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/.vs/gateway/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/gateway/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/bin/Debug/netcoreapp3.1/configuration/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/bin/Debug/netcoreapp3.1/configuration/configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/configuration/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/configuration/configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/APIGW/obj/Debug/netcoreapp3.1/APIGW.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/APIGW/obj/Debug/netcoreapp3.1/APIGW.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/review/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/ReviewServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/kafka/ReviewConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/java/nl/service/reviewservice/kafka/ReviewConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../review-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../review-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +97,7 @@
       <workItem from="1591256993943" duration="2361000" />
       <workItem from="1591522470164" duration="5227000" />
       <workItem from="1591607271101" duration="1285000" />
+      <workItem from="1592137898251" duration="3891000" />
     </task>
     <servers />
   </component>
@@ -168,22 +145,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="2539" height="324" key="GridCell.Tab.0.bottom" timestamp="1591274895805">
+    <state width="1267" height="324" key="GridCell.Tab.0.bottom" timestamp="1592203169895">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895805" />
-    <state width="2539" height="324" key="GridCell.Tab.0.center" timestamp="1591274895802">
+    <state width="1267" height="324" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592203169895" />
+    <state width="1267" height="324" key="GridCell.Tab.0.center" timestamp="1592203169891">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="324" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895802" />
-    <state width="2539" height="324" key="GridCell.Tab.0.left" timestamp="1591274895802">
+    <state width="1267" height="324" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592203169891" />
+    <state width="1267" height="324" key="GridCell.Tab.0.left" timestamp="1592203169888">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="324" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895802" />
-    <state width="2539" height="324" key="GridCell.Tab.0.right" timestamp="1591274895804">
+    <state width="1267" height="324" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592203169888" />
+    <state width="1267" height="324" key="GridCell.Tab.0.right" timestamp="1592203169893">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="324" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591274895804" />
+    <state width="1267" height="324" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592203169893" />
     <state x="921" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591168288658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
