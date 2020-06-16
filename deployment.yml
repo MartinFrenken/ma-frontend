@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ma-frontend
-        image: eu.gcr.io/sixth-spot-273818/ma-frontend:{{BITBUCKET_COMMIT}}
+        image: eu.gcr.io/sixth-spot-273818/ma-frontend:2d6b8dfae560e5c8c40fa1ac91ff81f0b874e710
         ports:
         - containerPort: 3000
         resources:
