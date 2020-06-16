@@ -35,7 +35,9 @@ jobs:
             
       - name: Push image to Google Cloud Container Registry
         run: "docker push eu.gcr.io/${{ secrets.GCLOUD_PROJECT }}/${{ secrets.GCLOUD_APP_NAME }}:$GITHUB_SHA"
-     
+        
+      - name: Update deployment.yaml file with GIT SHA
+        run: cat deployment.yaml | sed "s/{{BITBUCKET_COMMIT}}/$GITHUB_SHA/g" | kubectl apply -f -
      
       - name: Set up Kustomize
         run: |-
