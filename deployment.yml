@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ma-frontend
-        image: eu.gcr.io/sixth-spot-273818/ma-frontend:$GITHUB_SHA
+        image: eu.gcr.io/sixth-spot-273818/ma-frontend:{{BITBUCKET_COMMIT}}
         ports:
         - containerPort: 3000
         resources:
