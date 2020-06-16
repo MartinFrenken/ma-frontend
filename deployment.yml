@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: ma-frontend
 spec:
-  progressDeadlineSeconds: 300
   replicas: 1
   strategy:
     rollingUpdate:
