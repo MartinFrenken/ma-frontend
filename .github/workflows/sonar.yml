@@ -10,4 +10,4 @@ jobs:
     - name: Setup sonar scanner
       uses: warchant/setup-sonar-scanner@v1
     - name: SonarQube Scan
-      run: sonar-scanner -Dsonar.projectKey=frontend -Dsonar.sources=frontend -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
+      run: sonar-scanner -Dsonar.projectKey=frontend -Dsonar.sources=. -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
