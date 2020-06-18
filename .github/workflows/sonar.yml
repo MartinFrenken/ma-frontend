@@ -1,0 +1,13 @@
+on: push
+name: Sonarqube Workflow
+jobs:
+  sonarQubeTrigger:
+    name: SonarQube Trigger
+    runs-on: ubuntu-latest
+   
+    steps:
+    - uses: actions/checkout@master
+    - name: Setup sonar scanner
+      uses: warchant/setup-sonar-scanner@v1
+    - name: SonarQube Scan
+      run: sonar-scanner -Dsonar.projectKey=frontend -Dsonar.sources=frontend -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
