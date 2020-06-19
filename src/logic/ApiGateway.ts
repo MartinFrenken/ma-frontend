@@ -7,7 +7,7 @@ export default class ApiGateway {
             'content-type':'application/json'
         }
     };
-    baseUrl = window.location.origin;
+    baseUrl = window.location.origin+"/gateway";
     async postReview(text,rating,movieName) {
         const review={
             text:text,
