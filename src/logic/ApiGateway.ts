@@ -15,14 +15,14 @@ export default class ApiGateway {
             userToken:""
         };
 
-        Axios.post("http://localhost:1232/review-api/post/review",review, this.config).then(function (response) {
+        Axios.post("http://34.78.187.133/review-api/post/review",review, this.config).then(function (response) {
          return response
         });
     }
     async getReviews(movie){
-       return Axios.get("http://localhost:1232/review-api/get/reviews/"+movie, this.config)
+       return Axios.get("http://34.78.187.133/review-api/get/reviews/"+movie, this.config)
     }
     async deleteData(){
-        return Axios.get("http://localhost:1232/review-api/delete", this.config)
+        return Axios.get("http://34.78.187.133/review-api/delete", this.config)
     }
 }
