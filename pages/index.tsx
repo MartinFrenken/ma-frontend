@@ -59,7 +59,7 @@ export default () => {
             }
         };
 
-        Axios.get("http://34.78.187.133/movie/api/movies",config).then(function (response) {
+        Axios.get(window.location.origin +"/gateway/movie/api/movies",config).then(function (response) {
             console.log(response.data);
             setMovies({movies:response.data});
         })

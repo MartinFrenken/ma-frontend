@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/ApiGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/ApiGateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1591522470164" duration="5227000" />
       <workItem from="1591607271101" duration="1285000" />
       <workItem from="1592137898251" duration="3891000" />
-      <workItem from="1592563385334" duration="2834000" />
+      <workItem from="1592563385334" duration="3348000" />
     </task>
     <servers />
   </component>
