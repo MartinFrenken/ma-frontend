@@ -14,11 +14,8 @@ jobs:
       with:
         node-version: '12'  
     - name: Setup watchers
-      run: |
-       sudo apt-get install gedit
-       sudo gedit /etc/sysctl.conf
-       fs.inotify.max_user_watches=524288
-       sudo sysctl -p     
+      run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+      
     - name: Setup typescript
       run: npm install 
     - name: Run tests
