@@ -15,5 +15,7 @@ jobs:
         node-version: '12'   
     - name: Setup typescript
       run: npm install 
+    - name: Run tests
+      run: npm test 
     - name: SonarQube Scan
       run: sonar-scanner -Dsonar.projectKey=frontend -Dsonar.sources=. -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} -Dsonar.login=${{ secrets.SONARQUBE_TOKEN }}
