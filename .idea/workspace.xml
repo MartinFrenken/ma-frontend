@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/integration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/unit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/integration.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -42,7 +41,20 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="Jest.Backend API works correctly">
+  <component name="RunManager" selected="Jest.Backend API works correctly (1)">
+    <configuration name="Backend API works correctly (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/integration.test.js" />
+      <test-names>
+        <test-name value="Backend API works correctly" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Backend API works correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -66,6 +78,16 @@
       <test-file value="$PROJECT_DIR$/__tests__/integration.js" />
       <method v="2" />
     </configuration>
+    <configuration name="integration.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/__tests__/integration.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -78,6 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Backend API works correctly (1)" />
+        <item itemvalue="Jest.integration.test.js" />
         <item itemvalue="Jest.Backend API works correctly" />
         <item itemvalue="Jest.integration.js" />
       </list>
@@ -132,7 +156,7 @@
       <workItem from="1591607271101" duration="1285000" />
       <workItem from="1592137898251" duration="3891000" />
       <workItem from="1592563385334" duration="4015000" />
-      <workItem from="1592643736833" duration="3718000" />
+      <workItem from="1592643736833" duration="7280000" />
     </task>
     <servers />
   </component>
@@ -180,30 +204,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom" timestamp="1592647609994">
+    <state width="1264" height="379" key="GridCell.Tab.0.bottom" timestamp="1592653945094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592647609994" />
+    <state width="1264" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592653945094" />
     <state width="946" height="656" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.center" timestamp="1592647609994">
+    <state width="1264" height="379" key="GridCell.Tab.0.center" timestamp="1592653945093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592647609994" />
+    <state width="1264" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592653945093" />
     <state width="946" height="656" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.left" timestamp="1592647609994">
+    <state width="1264" height="379" key="GridCell.Tab.0.left" timestamp="1592653945093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592647609994" />
+    <state width="1264" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592653945093" />
     <state width="946" height="656" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.right" timestamp="1592647609994">
+    <state width="1264" height="379" key="GridCell.Tab.0.right" timestamp="1592653945094">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592647609994" />
+    <state width="1264" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592653945094" />
     <state width="946" height="656" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
     <state x="921" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591168288658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="921" y="314" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1591168288658" />
+    <state x="977" y="298" width="606" height="804" key="find.popup" timestamp="1592653572313">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="977" y="298" width="606" height="804" key="find.popup/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592653572313" />
     <state x="957" y="349" key="run.anything.popup" timestamp="1587487850991">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
