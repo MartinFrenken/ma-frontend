@@ -15,6 +15,7 @@ jobs:
         node-version: '12'  
     - name: Setup watchers
       run: |
+       sudo apt-get install gedit
        sudo gedit /etc/sysctl.conf
        fs.inotify.max_user_watches=524288
        sudo sysctl -p     
