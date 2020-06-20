@@ -24,7 +24,8 @@
     "react-dom": "^16.13.0",
     "react-use-auth": "^0.6.1",
     "use-auth0-hooks": "^0.7.0",
-    "yarn": "^1.22.4"
+    "yarn": "^1.22.4",
+    "@jest/globals": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

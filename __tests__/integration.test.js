@@ -1,5 +1,5 @@
 import Axios from "axios";
-import {expect} from "@jest/globals";
+import {expect, it} from "@jest/globals";
 
 it('Backend API works correctly', () => {
     expect.assertions(1);
