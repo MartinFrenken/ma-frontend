@@ -4,7 +4,8 @@ const WARN = 1;
 module.exports = {
     extends: "eslint:recommended",
     env: {
-        es6: true
+        es6: true,
+        jest: true
     },
     overrides: [
         {
