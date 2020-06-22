@@ -51,7 +51,7 @@ export default class ReviewInput extends React.Component<{movieName:string}> {
 
     postReview(event: MouseEvent<HTMLButtonElement>){
        let gateWay= new ApiGateway();
-       gateWay.postReview(this.state.text,this.state.value,this.props.movieName).then(()=>      Router.reload());
+       gateWay.postReview(this.state.text,this.state.value,this.props.movieName).then(()=>     console.log("g"));
 
     }
 }

@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/babel.config.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/jest.config.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/_app.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/account.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/auth0_callback.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/[movie].tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/LoginBox.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/MovieFeatured.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/NavBar.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/UserButton.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/ReviewInput.tsx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGateway.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGatewayMock.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/LocalStorageMock.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ReviewCalculator.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Movie.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Review.ts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/webpack.config.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/movie/[movie].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movie/[movie].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/review/ReviewInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/review/ReviewInput.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +82,16 @@
       <recent name="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="Jest.All Tests">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="Backend API works correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -53,19 +102,6 @@
       <test-file value="$PROJECT_DIR$/__tests__/integration.test.js" />
       <test-names>
         <test-name value="Backend API works correctly" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Get average reviews works correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__tests__/calc.test.js" />
-      <test-names>
-        <test-name value="Get average reviews works correctly" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -111,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.All Tests" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.calc.test.js" />
         <item itemvalue="Jest.integration.test.js" />
         <item itemvalue="Jest.Backend API works correctly" />
-        <item itemvalue="Jest.Get average reviews works correctly" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +206,7 @@
       <workItem from="1592563385334" duration="4015000" />
       <workItem from="1592643736833" duration="15120000" />
       <workItem from="1592777673605" duration="347000" />
-      <workItem from="1592819187383" duration="20394000" />
+      <workItem from="1592819187383" duration="21420000" />
     </task>
     <servers />
   </component>
@@ -222,25 +258,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="1264" height="263" key="GridCell.Tab.0.bottom" timestamp="1592859545178">
+    <state width="1264" height="263" key="GridCell.Tab.0.bottom" timestamp="1592860481596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545178" />
+    <state width="1264" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592860481596" />
     <state width="946" height="656" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.center" timestamp="1592859545176">
+    <state width="1264" height="263" key="GridCell.Tab.0.center" timestamp="1592860481596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545176" />
+    <state width="1264" height="263" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592860481596" />
     <state width="946" height="656" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.left" timestamp="1592859545174">
+    <state width="1264" height="263" key="GridCell.Tab.0.left" timestamp="1592860481596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545174" />
+    <state width="1264" height="263" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592860481596" />
     <state width="946" height="656" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.right" timestamp="1592859545177">
+    <state width="1264" height="263" key="GridCell.Tab.0.right" timestamp="1592860481596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545177" />
+    <state width="1264" height="263" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592860481596" />
     <state width="946" height="656" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
     <state width="1269" height="492" key="GridCell.Tab.1.bottom" timestamp="1592674075805">
       <screen x="0" y="0" width="2560" height="1400" />
