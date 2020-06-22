@@ -5,6 +5,7 @@ import React, {useEffect, useState} from "react";
 import {Card, Rate} from "antd";
 import ReviewInput from "../../src/component/review/ReviewInput";
 import { Client } from '@stomp/stompjs';
+import {setState} from "expect/build/jestMatchersObject";
 
 const Post = () => {
 
@@ -24,7 +25,7 @@ const Post = () => {
     {
 
         getReviews(movie);
-
+        setMovie({movie:movie});
     },[router]);
 
     function getReviews(movie){
@@ -45,9 +46,8 @@ const Post = () => {
 
         </Card>);
 
-
     return <>
-        <ReviewInput movieName={movie.toString()}/>
+        <ReviewInput movieName={movieState.movie}/>
         <ul>
         {listItems}
         </ul>

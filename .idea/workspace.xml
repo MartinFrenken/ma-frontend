@@ -42,7 +42,7 @@
       <recent name="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Backend API works correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -170,7 +170,7 @@
       <workItem from="1592563385334" duration="4015000" />
       <workItem from="1592643736833" duration="15120000" />
       <workItem from="1592777673605" duration="347000" />
-      <workItem from="1592819187383" duration="19559000" />
+      <workItem from="1592819187383" duration="20394000" />
     </task>
     <servers />
   </component>
@@ -222,25 +222,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="1264" height="263" key="GridCell.Tab.0.bottom" timestamp="1592850669105">
+    <state width="1264" height="263" key="GridCell.Tab.0.bottom" timestamp="1592859545178">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592850669105" />
+    <state width="1264" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545178" />
     <state width="946" height="656" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.center" timestamp="1592850669105">
+    <state width="1264" height="263" key="GridCell.Tab.0.center" timestamp="1592859545176">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592850669105" />
+    <state width="1264" height="263" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545176" />
     <state width="946" height="656" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.left" timestamp="1592850669105">
+    <state width="1264" height="263" key="GridCell.Tab.0.left" timestamp="1592859545174">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592850669105" />
+    <state width="1264" height="263" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545174" />
     <state width="946" height="656" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="263" key="GridCell.Tab.0.right" timestamp="1592850669105">
+    <state width="1264" height="263" key="GridCell.Tab.0.right" timestamp="1592859545177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="263" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592850669105" />
+    <state width="1264" height="263" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592859545177" />
     <state width="946" height="656" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
     <state width="1269" height="492" key="GridCell.Tab.1.bottom" timestamp="1592674075805">
       <screen x="0" y="0" width="2560" height="1400" />
