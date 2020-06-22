@@ -41,7 +41,7 @@
       <recent name="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.unit.test.js">
+  <component name="RunManager" selected="npm.test">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -61,19 +61,6 @@
       <test-file value="$PROJECT_DIR$/__tests__/unit.test.js" />
       <test-names>
         <test-name value="Token is not set on gateway creation" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Token is not set serverside" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__tests__/unit.test.js" />
-      <test-names>
-        <test-name value="Token is not set serverside" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -107,13 +94,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Jest.unit.test.js" />
         <item itemvalue="Jest.Token is not set on gateway creation" />
         <item itemvalue="Jest.movie.test.js" />
         <item itemvalue="Jest.All Tests" />
-        <item itemvalue="Jest.Token is not set serverside" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +165,7 @@
       <workItem from="1592563385334" duration="4015000" />
       <workItem from="1592643736833" duration="15120000" />
       <workItem from="1592777673605" duration="347000" />
-      <workItem from="1592819187383" duration="7954000" />
+      <workItem from="1592819187383" duration="8952000" />
     </task>
     <servers />
   </component>
@@ -220,25 +217,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom" timestamp="1592825347925">
+    <state width="936" height="263" key="GridCell.Tab.0.bottom" timestamp="1592838736070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
+    <state width="936" height="263" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592838736070" />
     <state width="946" height="656" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.center" timestamp="1592825347925">
+    <state width="936" height="263" key="GridCell.Tab.0.center" timestamp="1592838736070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
+    <state width="936" height="263" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592838736070" />
     <state width="946" height="656" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.left" timestamp="1592825347924">
+    <state width="936" height="263" key="GridCell.Tab.0.left" timestamp="1592838736069">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347924" />
+    <state width="936" height="263" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592838736069" />
     <state width="946" height="656" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.right" timestamp="1592825347925">
+    <state width="936" height="263" key="GridCell.Tab.0.right" timestamp="1592838736070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
+    <state width="936" height="263" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592838736070" />
     <state width="946" height="656" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
     <state width="1269" height="492" key="GridCell.Tab.1.bottom" timestamp="1592674075805">
       <screen x="0" y="0" width="2560" height="1400" />
