@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logic/ApiGatewayMock.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/movie.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/movie.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
       <recent name="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Token is not set on gateway creation">
+  <component name="RunManager" selected="Jest.unit.test.js">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,19 +49,6 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Base url is set properly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__tests__/movie.test.js" />
-      <test-names>
-        <test-name value="Base url is set properly" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Token is not set on gateway creation" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -105,6 +87,16 @@
       <test-file value="$PROJECT_DIR$/__tests__/movie.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="unit.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/__tests__/unit.test.js" />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -117,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.unit.test.js" />
         <item itemvalue="Jest.Token is not set on gateway creation" />
         <item itemvalue="Jest.movie.test.js" />
         <item itemvalue="Jest.All Tests" />
         <item itemvalue="Jest.Token is not set serverside" />
-        <item itemvalue="Jest.Base url is set properly" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +168,7 @@
       <workItem from="1592563385334" duration="4015000" />
       <workItem from="1592643736833" duration="15120000" />
       <workItem from="1592777673605" duration="347000" />
-      <workItem from="1592819187383" duration="4071000" />
+      <workItem from="1592819187383" duration="4663000" />
     </task>
     <servers />
   </component>
@@ -228,25 +220,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="885" y="428" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1590233671759" />
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom" timestamp="1592825248992">
+    <state width="1264" height="379" key="GridCell.Tab.0.bottom" timestamp="1592825347925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825248992" />
+    <state width="1264" height="379" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
     <state width="946" height="656" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.center" timestamp="1592825248991">
+    <state width="1264" height="379" key="GridCell.Tab.0.center" timestamp="1592825347925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825248991" />
+    <state width="1264" height="379" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
     <state width="946" height="656" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.left" timestamp="1592825248991">
+    <state width="1264" height="379" key="GridCell.Tab.0.left" timestamp="1592825347924">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825248991" />
+    <state width="1264" height="379" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347924" />
     <state width="946" height="656" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
-    <state width="1264" height="379" key="GridCell.Tab.0.right" timestamp="1592825248992">
+    <state width="1264" height="379" key="GridCell.Tab.0.right" timestamp="1592825347925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1264" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825248992" />
+    <state width="1264" height="379" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1592825347925" />
     <state width="946" height="656" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@2560.350.1920.1040" timestamp="1592643913163" />
     <state width="1269" height="492" key="GridCell.Tab.1.bottom" timestamp="1592674075805">
       <screen x="0" y="0" width="2560" height="1400" />

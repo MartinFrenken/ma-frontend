@@ -4,6 +4,10 @@ import renderer from 'react-test-renderer';
 import React from "react";
 import ReviewInput from "../src/component/review/ReviewInput";
 
+/**
+ * @jest-environment jsdom
+ */
+
 window.matchMedia = window.matchMedia || function() {
     return {
         matches : false,
