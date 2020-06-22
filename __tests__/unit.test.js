@@ -1,11 +1,20 @@
-import Axios from "axios";
-import {expect, it} from "@jest/globals";
-import ApiGateway from "../src/logic/ApiGateway";
-import LocalStorageMock from "../src/logic/LocalStorageMock";
 
-global.localStorage = new LocalStorageMock;
-it('Token is not set on gateway creation', () => {
-    expect.assertions(1);
-    expect(localStorage.getItem("accessToken")).toBeNull();
+import {expect, it} from "@jest/globals";
+import renderer from 'react-test-renderer';
+import React from "react";
+import ReviewInput from "../src/component/review/ReviewInput";
+
+window.matchMedia = window.matchMedia || function() {
+    return {
+        matches : false,
+        addListener : function() {},
+        removeListener: function() {}
+    };
+};
+
+it('Reviewinput renders correctly', () => {
+    const component = renderer.create(<ReviewInput   movieName={"Cool movie"}/>);
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
 });
 

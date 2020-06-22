@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
+    "@jest/globals": "latest",
     "@stomp/stompjs": "latest",
     "ant-design-pro": "latest",
     "antd": "^4.0.2",
@@ -22,10 +23,10 @@
     "next": "^9.2.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-test-renderer": "^16.13.1",
     "react-use-auth": "^0.6.1",
     "use-auth0-hooks": "^0.7.0",
-    "yarn": "^1.22.4",
-    "@jest/globals": "latest"
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
