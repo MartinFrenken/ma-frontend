@@ -10,5 +10,6 @@ it('Get average reviews works correctly', () => {
     arr.push(firstReview,secondReview)
     let result =calc.getAverage(arr);
     expect(result).toEqual(2.5)
+
 });
 
