@@ -39,6 +39,7 @@
     "webpack": "^4.28.4"
   },
   "jest": {
-    "testResultsProcessor": "jest-sonar-reporter"
+    "testResultsProcessor": "jest-sonar-reporter",
+    "testEnvironment": "jsdom"
   }
 }
