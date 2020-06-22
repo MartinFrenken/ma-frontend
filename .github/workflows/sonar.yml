@@ -20,6 +20,7 @@ jobs:
       run: npm install 
     - run: npm run build --if-present
     - uses: actions/checkout@v1
+    - run : Jest --clearCache  
     - name: Run Jest --clearCache
       uses: stefanoeb/jest-action@1.0.3
     - name: SonarQube Scan
