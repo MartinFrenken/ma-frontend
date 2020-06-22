@@ -2,6 +2,7 @@ import { Rate, Card, Button,Row,Col} from 'antd';
 import React,{  MouseEvent } from "react"
 import { Input } from 'antd';
 import ApiGateway from "../../logic/ApiGateway";
+import Router from "next/router";
 
 const { TextArea } = Input;
 const desc = ['Terrible', 'Bad', 'Normal', 'Good', 'Wonderful'];
@@ -50,7 +51,7 @@ export default class ReviewInput extends React.Component<{movieName:string}> {
 
     postReview(event: MouseEvent<HTMLButtonElement>){
        let gateWay= new ApiGateway();
-       gateWay.postReview(this.state.text,this.state.value,this.props.movieName);
+       gateWay.postReview(this.state.text,this.state.value,this.props.movieName).then(()=>      Router.reload());
 
     }
 }

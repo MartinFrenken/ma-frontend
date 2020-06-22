@@ -24,20 +24,7 @@ const Post = () => {
     {
 
         getReviews(movie);
-        let client = new Client();
-        client.configure({
-            brokerURL: 'ws://localhost:9000/websocket',
-            onConnect: () => {
-                console.log('onConnect');
-                client.subscribe('/topic/review', message => {
-                    let review = JSON.parse(message.body);
-                    let currentReviews = reviewState.reviews;
-                    currentReviews.push(review);
-                    setReviews({reviews:currentReviews})
-                });
-            },
-        });
-        client.activate();
+
     },[router]);
 
     function getReviews(movie){
@@ -58,8 +45,9 @@ const Post = () => {
 
         </Card>);
 
+
     return <>
-        <ReviewInput movieName={movieState.movie}/>
+        <ReviewInput movieName={movie.toString()}/>
         <ul>
         {listItems}
         </ul>
