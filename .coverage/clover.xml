@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592860497367" clover="3.2.0">
-  <project timestamp="1592860497367" name="All files">
-    <metrics statements="147" coveredstatements="4" conditionals="20" coveredconditionals="0" methods="58" coveredmethods="1" elements="225" coveredelements="5" complexity="0" loc="147" ncloc="147" packages="7" files="19" classes="19"/>
+<coverage generated="1592896823375" clover="3.2.0">
+  <project timestamp="1592896823375" name="All files">
+    <metrics statements="147" coveredstatements="10" conditionals="20" coveredconditionals="0" methods="58" coveredmethods="2" elements="225" coveredelements="12" complexity="0" loc="147" ncloc="147" packages="7" files="19" classes="19"/>
     <package name="frontend">
       <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="babel.config.js" path="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\babel.config.js">
@@ -161,27 +161,27 @@
       </file>
     </package>
     <package name="frontend.src.component.review">
-      <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
       <file name="ReviewInput.tsx" path="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\component\review\ReviewInput.tsx">
-        <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
         <line num="54" count="0" type="stmt"/>
       </file>
     </package>
     <package name="frontend.src.logic">
-      <metrics statements="23" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="14" coveredmethods="1"/>
+      <metrics statements="23" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="14" coveredmethods="0"/>
       <file name="ApiGateway.ts" path="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic\ApiGateway.ts">
         <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
@@ -211,11 +211,11 @@
         <line num="19" count="0" type="stmt"/>
       </file>
       <file name="ReviewCalculator.ts" path="D:\MovieAnalyst S6\MovieAnalyst - Rework\frontend\src\logic\ReviewCalculator.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
       </file>
     </package>
     <package name="frontend.src.model">

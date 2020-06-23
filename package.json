@@ -18,6 +18,7 @@
     "ant-design-pro": "latest",
     "antd": "^4.0.2",
     "axios": "latest",
+    "enzyme-adapter-react-15": "^1.4.1",
     "gatsby": "^2.21.19",
     "jest": "^26.0.1",
     "next": "^9.2.2",
@@ -35,6 +36,8 @@
     "@types/react": "^16.9.23",
     "babel-eslint": "^10.0.3",
     "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "jest-sonar-reporter": "^2.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.28.4"
