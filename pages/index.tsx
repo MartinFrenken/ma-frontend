@@ -80,7 +80,7 @@ export default () => {
         };
 
         const movieRenders = movieState.movies.map((movie) =>
-            <Row>
+            <Row justify="center">
                 <Col span={12} offset={6} style={{marginTop:30}}>
                     <MovieFeatured movie={movie}/>
                 </Col>
