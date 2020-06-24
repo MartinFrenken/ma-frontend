@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/loginbox.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/clover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/coverage-final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/babel.config.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/babel.config.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/jest.config.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/jest.config.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/_app.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/_app.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/account.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/account.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/auth0_callback.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/auth0_callback.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/index.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/[movie].tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/[movie].tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/pages/movie/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/LoginBox.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/LoginBox.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/MovieFeatured.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/MovieFeatured.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/NavBar.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/NavBar.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/UserButton.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/UserButton.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/ReviewInput.tsx.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/ReviewInput.tsx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/component/review/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGateway.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGateway.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGatewayMock.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ApiGatewayMock.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/LocalStorageMock.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/LocalStorageMock.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ReviewCalculator.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/ReviewCalculator.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/logic/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Movie.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Movie.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Review.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/Review.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/src/model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/frontend/webpack.config.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/frontend/webpack.config.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="e25acca7-86a0-4178-81d9-831403773b6a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

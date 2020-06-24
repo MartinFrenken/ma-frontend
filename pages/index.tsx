@@ -1,7 +1,7 @@
 import React, {Component, useState,useEffect} from "react";
 import Axios from "axios";
 import { Client } from '@stomp/stompjs';
-import {Button, Card, Rate} from 'antd';
+import {Button, Card, Col, Rate, Row} from 'antd';
 import { useAuth } from "react-use-auth";
 import Navbar from "../src/component/NavBar";
 import MovieFeatured from "../src/component/MovieFeatured";
@@ -80,7 +80,12 @@ export default () => {
         };
 
         const movieRenders = movieState.movies.map((movie) =>
-            <MovieFeatured movie={movie}/>
+            <Row>
+                <Col span={12} offset={6} style={{marginTop:30}}>
+                    <MovieFeatured movie={movie}/>
+                </Col>
+            </Row>
+
             );
         return (
             <div>
